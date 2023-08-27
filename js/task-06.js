@@ -4,7 +4,7 @@ const dataLength = parseInt(
 );
 
 const handler = (event) => {
-  const inputValueLength = event.currentTarget.value.split('').length;
+  const inputValueLength = event.currentTarget.value.trim().length;
 
   if (inputValueLength === dataLength) {
     validationInput.classList.add('valid');

@@ -10,11 +10,11 @@ const ingredients = [
 const listOfIngridients = document.querySelector('#ingredients');
 
 const markup = ingredients.map((ingridient) => {
-  const li = document.createElement('li');
-  li.textContent = ingridient;
-  li.classList = 'ingridient';
-  console.log(li);
-  return li;
+  const liElement = document.createElement('li');
+  liElement.textContent = ingridient;
+  liElement.classList = 'ingridient';
+  console.log(liElement);
+  return liElement;
 });
 
 listOfIngridients.append(...markup);
