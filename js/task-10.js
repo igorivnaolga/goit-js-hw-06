@@ -10,7 +10,7 @@
 // const boxes = document.querySelector('#boxes');
 // const amount = input.value;
 // function createBoxes(amount) {
-//   for (i = 1; i <= amount; i++) {
+//   for (let i = 1; i <= amount; i++) {
 //     let box = '<div></div>';
 //     box.style.width = '10';
 //     box.style.height = '10';
